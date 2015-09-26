@@ -24,6 +24,6 @@
     "webpack-dev-server": "^1.11.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --hot --progress --colors --content-base src/",
+    "start": "webpack-dev-server --hot --progress --colors --content-base src/"
   }
 }
