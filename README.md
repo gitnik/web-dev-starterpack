@@ -8,10 +8,10 @@
 * fontawesome
 * lodash
 * angular-eslint
+* google analytics
 
 # todo
 * testing environment
-* google analytics
 * flow
 * production build
 
