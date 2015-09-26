@@ -16,9 +16,11 @@
 * production build
 
 # how to
+* `git clone git@github.com:gitnik/web-dev-starterpack.git <your-project-name>`
+* `cd <your-project-name>`
 * `npm install`
 * `npm start`
-* (*optionally*) `configure google analytics` (more info here https://github.com/revolunet/angular-google-analytics)
+* `configure google analytics` (optionally! more info here https://github.com/revolunet/angular-google-analytics)
 * `open http://localhost:8080`
 
 # faq
