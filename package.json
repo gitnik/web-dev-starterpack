@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A starter pack for a modern web app that's easy to get started with.",
   "name": "web-dev-starterpack",
   "keywords": ["webpack, angularjs, babel, scss, eslint, lodash"],
