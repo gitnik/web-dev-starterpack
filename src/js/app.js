@@ -1,5 +1,6 @@
 import angular from 'angular';
 import uirouter from 'angular-ui-router';
+import analytics from 'angular-google-analytics';
 
 import '../scss/main.scss';
 
@@ -10,7 +11,7 @@ class HelloController {
 }
 
 angular
-    .module('StarterApp', [uirouter])
+    .module('StarterApp', [uirouter, analytics])
     .config(/*ngInject*/($stateProvider, $urlRouterProvider, $locationProvider) => {
         $stateProvider
             .state('home', {
@@ -22,5 +23,11 @@ angular
 
         $locationProvider.html5Mode(true);
         $urlRouterProvider.otherwise('/');
+    })
+    .config(/*ngInject*/(AnalyticsProvider) => {
+        AnalyticsProvider
+            .setAccount(GOOGLE_ANALYTICS_CONFIG)
+            .logAllCalls(true)
+            .setPageEvent('$stateChangeSuccess'); // event fired by ui-router
     })
     .controller('HelloController', HelloController);

@@ -7,6 +7,9 @@
     "builtin": true,
     "es6": true
   },
+  "globals": {
+    "GOOGLE_ANALYTICS_CONFIG": true
+  },
   "ecmaFeatures": {
     "generators": false // needs regenator runtime, not added atm
   },

@@ -18,6 +18,7 @@
 # how to
 * `npm install`
 * `npm start`
+* (*optionally*) `configure google analytics (more info here https://github.com/revolunet/angular-google-analytics)`
 * `open http://localhost:8080`
 
 # faq

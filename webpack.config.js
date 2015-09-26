@@ -25,6 +25,9 @@ module.exports = {
                  **/
                 return module.resource && module.resource.indexOf(appDir) === -1;
             }
+        }),
+        new webpack.DefinePlugin({
+            GOOGLE_ANALYTICS_CONFIG: 'your ga key or config object here'
         })
     ],
     module: {
