@@ -1,4 +1,14 @@
 {
+  "version": "0.1.0",
+  "description": "A starter pack for a modern web app that's easy to get started with.",
+  "name": "web dev staterpack",
+  "keywords": ["webpack, angularjs, babel, scss, eslint, lodash"],
+  "homepage": "https://github.com/gitnik/web-dev-starterpack",
+  "bugs": {
+    "url": "https://github.com/gitnik/web-dev-starterpack/issues"
+  },
+  "license": "MIT",
+  "author": "Nik Karbaum ",
   "dependencies": {
     "angular": "^1.4.6",
     "angular-google-analytics": "https://github.com/revolunet/angular-google-analytics/archive/1.1.0.tar.gz",
